@@ -1,6 +1,6 @@
 let
   nixpkgs-src = builtins.fetchTarball {
-    # master of 2020-11-21.
+    # master of 2021-01-05.
     url = "https://github.com/NixOS/nixpkgs/archive/1a57d96edd156958b12782e8c8b6a374142a7248.tar.gz";
     sha256 = "1qdh457apmw2yxbpi1biwl5x5ygaw158ppff4al8rx7gncgl10rd";
   };
